@@ -1,9 +1,13 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Overview"
+    url: /overview/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Download"
+    url: /download/
+  - title: "Beta Testers"
+    url: /beta-testers/
+  - title: "Team Members"
+    url: /team-members/
   - title: "About"
     url: /about/
