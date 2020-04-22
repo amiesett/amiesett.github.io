@@ -1,13 +1,13 @@
 main:
   - title: "Overview"
     url: /overview/
-  - title: "Tutorials"
-    url: /tutorials/
   - title: "Download"
     url: /download/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Documentation"
+    url: /documentation/
   - title: "Beta Testers"
     url: /beta-testers/
   - title: "Team Members"
     url: /team-members/
-  - title: "About"
-    url: /about/

@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/tree-network-cartoon.pdf"
+  avatar : "/assets/images/tree-network-cartoon.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
@@ -94,11 +94,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
+    classes: wide
   # _pages
   - scope:
       path: "_pages"
@@ -107,9 +108,9 @@ defaults:
       layout: single
       author_profile: false
 
-#category_archive:
-  #type: liquid
-  #path: /categories/
-tag_archive:
+category_archive:
   type: liquid
-  path: /tags/
+  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
