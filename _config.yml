@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -99,7 +99,7 @@ defaults:
       comments: false
       share: true
       related: false
-    classes: wide
+      classes: wide
   # _pages
   - scope:
       path: "_pages"

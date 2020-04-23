@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1: Evaluating Species Tree Inference Sensitivity to Models of Sequence Evolution"
-date: 2019-04-18T15:34:30-04:00 #will this update auto since entering TZ in _config.yml
+#date: 2019-04-18T15:34:30-04:00 #will this update auto since entering TZ in _config.yml
 categories:
   - blog
 #tags:

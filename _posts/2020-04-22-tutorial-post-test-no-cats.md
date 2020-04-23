@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1: no cats"
-date: 2019-04-18T15:34:30-04:00 #will this update auto since entering TZ in _config.yml
+#date: 2019-04-18T15:34:30-04:00 #will this update auto since entering TZ in _config.yml
 #deleted categories variable and blog option
 tags:
   - Jekyll
