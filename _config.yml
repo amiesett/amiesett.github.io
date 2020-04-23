@@ -94,12 +94,13 @@ defaults:
       type: posts
     values:
       layout: single
+        classes: wide
       author_profile: false
       read_time: false
       comments: false
       share: true
       related: false
-      classes: wide
+
   # _pages
   - scope:
       path: "_pages"
