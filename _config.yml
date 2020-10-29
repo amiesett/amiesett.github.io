@@ -108,7 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      class: wide
+      classes: wide
 
 category_archive:
   type: liquid
