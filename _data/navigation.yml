@@ -1,6 +1,4 @@
 main:
-  - title: "Download"
-    url: /download/
   - title: "Tutorials"
     url: /tutorials/
   - title: "Documentation"
