@@ -1,6 +1,4 @@
 main:
-  - title: "CloudForest"
-    url: /home/
   - title: "Download"
     url: /download/
   - title: "Tutorials"
