@@ -1,10 +1,8 @@
 ---
-permalink: /documentation/
-title: "Title here"
+permalink: /dev_guide/
+title: "Developer Guide"
 ---
-# CloudForest Developer Guide #
-
-CloudForest is comprised of three separate code units:
+## CloudForest is comprised of three separate code units:
 
 1. TreeScaper
 
