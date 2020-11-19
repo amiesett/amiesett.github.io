@@ -37,8 +37,8 @@ timezone: "America/Chicago" # https://en.wikipedia.org/wiki/List_of_tz_database_
 include:
   - _pages
 
-exclude:
-  - index.html
+# exclude:
+#   - index.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
