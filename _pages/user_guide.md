@@ -1,7 +1,6 @@
 ---
 permalink: /user_guide/
 title: "User Guide"
-sidebar:
 ---
 CloudForest is a collection of phylogenomic tools residing in the workflow application [**Galaxy**](https://galaxyproject.org/). Both Galaxy and CloudForest are packaged within a [**Docker**](https://docker.com) container.
 
