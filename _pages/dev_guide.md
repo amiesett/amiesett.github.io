@@ -1,6 +1,8 @@
 ---
 permalink: /dev_guide/
 title: "Developer Guide"
+sidebar:
+  title: "Developer guide navigation to come"
 ---
 ## CloudForest is comprised of three separate code units:
 
