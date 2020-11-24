@@ -181,10 +181,10 @@ The left panel contains all the tools available for use.
 <p align="center">&#9672;</p>
 
 You access all tools from the left panel, click on **CloudForest** to open the subpanel:<br>
-![](Tools.png)
+![](/assets/guide-images/Tools.png)
 
 Click on any tool to show its options:<br>
-![](TreeScaper-Trees.png)
+![](/assets/guide-images/TreeScaper-Trees.png)
 
 In this example, the options for the **-trees** argument are made available. The first history entry, **cats_subsampled.boottrees** has been uploaded to CloudForest and is the start of the data analysis.
 
@@ -192,7 +192,7 @@ Clicking on **Execute** starts the compute job. In the right history pane, you c
 
 For instance, you can run NLDR on history entry 5 **Distance Matrix from data 1** to generate a non-linear dimension reduction of the generated trees.
 
-![](Execute.png)
+![](/assets/guide-images/Execute.png)
 
 <p align="center">&#9672;</p>
 
@@ -211,7 +211,7 @@ Once the workflow starts, barring errors, it will run until the final output is 
 
 There will be ten data sets after the workflow finishes. Each asterix in the tools boxes shown below is a data file.
 
-![](Workflow_20D.png)
+![](/assets/guide-images/Workflow_20D.png)
 
 <p align="center">&#9672;</p>
 
@@ -219,11 +219,11 @@ There will be ten data sets after the workflow finishes. Each asterix in the too
 
 The raw data of a computed data set can be viewed from within CloudForest.
 On any history entry, click on the eye icon.
-![](eye.png)
+![](/assets/guide-images/eye.png)
 
 This will open the raw data within a computed data set. The data will appear within the central pane.
 
-![](raw_data.png)
+![](/assets/guide-images/raw_data.png)
 
 
 
@@ -231,11 +231,11 @@ This will open the raw data within a computed data set. The data will appear wit
 
 CloudForest datasets can be visualized directly from the CloudForest application. Within each data entry, you can click on the *Visualize this data* button
 
-![](viz_select.png)
+![](/assets/guide-images/viz_select.png)
 
 Then click on the *CloudForest Visualizations* link in the center pane. This will open the CloudForest visualization application.
 
-![](viz_categories.png)
+![](/assets/guide-images/viz_categories.png)
 
 The available plots and visualizations are arranged in three categories:
 - NLDR Plots
@@ -254,8 +254,8 @@ The available plots and visualizations are arranged in three categories:
 
 Click on any dropdown item to visualize the file. For example, choosing *NDLR Coordinates: 3D from data 5* will produce a fully interactive 3D plot
 
-![](3dnldr.png)
+![](/assets/guide-images/3dnldr.png)
 
 In this screen capture the trees have been color coded based on the x-axis. Highlighting a data point will let you know what tree is associated with the point. Click on the data point will open the tree itself.
 
-![](multi_viz.png)
+![](/assets/guide-images/multi_viz.png)
