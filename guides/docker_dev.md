@@ -5,7 +5,7 @@ CloudForest is comprised of three separate code units:
 1. TreeScaper
 
     The command line application
-    
+
 2. CloudForest Visualization
 
     JS code for visualizing TreeScaper output
@@ -18,7 +18,7 @@ The code units are brought together to build and publish a Docker container on [
 
 ## General Development Flow
 
-![](DevFlow3.png)
+![](/assets/docker_dev-images/DevFlow3.png)
 
 ## Github Repositories
 
@@ -50,7 +50,7 @@ The primary file is named [Dockerfile](https://docs.docker.com/engine/reference/
 In addition, there are multiple files and directories used in constructing the CloudForest Galaxy container
 
 * IQTree command line executable
-* CLVTreeScaper command line executable 
+* CLVTreeScaper command line executable
 * Python and xml files for generating Galaxy datatypes and [tools](https://docs.galaxyproject.org/en/master/dev/schema.html)
 * Tarball for loading JS visualization code.
 
@@ -60,7 +60,7 @@ The CloudForestDocker repo is linked to the Docker Hub website. When there is a 
 
 ### CloudForest as a Docker Container
 
-![](DockerOverview.png)
+![](/assets/docker_dev-images/DockerOverview.png)
 
 The CloudForest application is a Docker container of a linux-based web application. It can run on any OS that supports Docker engine (Windows, Linux and macOS) and it will behave the same across all OS platforms.
 
@@ -85,7 +85,7 @@ Docker [volumes](https://docs.docker.com/storage/volumes/) are similar to contai
 
 #### Bind Mounts
 
-Docker [bind mounts](https://docs.docker.com/storage/bind-mounts/) are the original method for persisting data out of a running container. This is the method we will use in our user instructions. 
+Docker [bind mounts](https://docs.docker.com/storage/bind-mounts/) are the original method for persisting data out of a running container. This is the method we will use in our user instructions.
 
 Bind mounts open a filesystem channel from the container out to the host file system. When mounted, the container will write files directly to host space.
 This is the general form of the command:
@@ -102,7 +102,7 @@ The LHS of the colon can be any legal, local OS path. The RHS of the colon **mus
 
 As long as the LHS path is used for each application start, CloudForest will use the DB and files saved from the last run. If another LHS path is used, CloudForest will start with a blank DB and no data files.
 
-You can see why using Docker volumes is a clean method of data transfer. Bind mounts tie saved data to the local file system structure, while Docker volumes abstract away the local environment. This abstraction does come at the cost of using more Docker commands. Nullum gratuitum prandium. 
+You can see why using Docker volumes is a clean method of data transfer. Bind mounts tie saved data to the local file system structure, while Docker volumes abstract away the local environment. This abstraction does come at the cost of using more Docker commands. Nullum gratuitum prandium.
 
 ### On the Nature of Data
 

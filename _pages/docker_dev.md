@@ -22,7 +22,7 @@ The code units are brought together to build and publish a Docker container on [
 
 ## General Development Flow
 
-![](DevFlow3.png)
+![](/assets/docker_dev-images/DevFlow3.png)
 
 ## Github Repositories
 
@@ -64,7 +64,7 @@ The CloudForestDocker repo is linked to the Docker Hub website. When there is a 
 
 ### CloudForest as a Docker Container
 
-![](DockerOverview.png)
+![](/assets/docker_dev-images/DockerOverview.png)
 
 The CloudForest application is a Docker container of a linux-based web application. It can run on any OS that supports Docker engine (Windows, Linux and macOS) and it will behave the same across all OS platforms.
 
