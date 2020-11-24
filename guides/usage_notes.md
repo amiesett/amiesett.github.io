@@ -1,14 +1,12 @@
----
-permalink: /user_guide/
-title: "User Guide"
----
+# CloudForest User Guide #
+
 CloudForest is a collection of phylogenomic tools residing in the workflow application [**Galaxy**](https://galaxyproject.org/). Both Galaxy and CloudForest are packaged within a [**Docker**](https://docker.com) container.
 
 Containers package application, OS and dependency code into images that can be run from variety of computing environments. CloudForest via Docker will run on Linux, Windows and MacOS.
 
 ## Preparing to Run CloudForest
 
-### Docker Installation
+### Docker Installation 
 
 To run CloudForest, you will have to install Docker. Please follow these [**instructions**](https://www.docker.com/products/docker-desktop) to install Docker for your operating system.
 
@@ -132,18 +130,18 @@ You can specifiy multiple, unique *__-v__* options. In that case you will have c
 > NB: Docker commands are run from the terminal command line.
 
 This is the recommended command for running CloudForest on macOS (assuming the user's name is *jdoe*):
-
+    
     docker run -d -p 8080:80 --name cloudforest -v /User/jdoe/galaxy_storage/:/export/ -e "GALAXY_DESTINATIONS_DEFAULT=local_no_container" -e "GALAXY_SLOTS=2" cloudforestphylogenomics/cloudforest_galaxy:latest
 
 This is the recommended command for running CloudForest on a linux distribution (assuming the user's name is *jdoe*):
-
+    
     docker run -d -p 8080:80 --name cloudforest -v /home/jdoe/galaxy_storage/:/export/ -e "GALAXY_DESTINATIONS_DEFAULT=local_no_container" -e "GALAXY_SLOTS=2" cloudforestphylogenomics/cloudforest_galaxy:latest
 
 This is the recommended command for running CloudForest on Windows 10 (assuming the user's name is *jdoe*):
-
+    
     TODO
 
-It will take a minute or two for CloudForest to start once you invoke the docker run command.
+It will take a minute or two for CloudForest to start once you invoke the docker run command. 
 
 If your computer has more than 4 cores, setting "GALAXY_SLOTS=4" is a good setting.
 
@@ -154,7 +152,7 @@ If your computer has more than 4 cores, setting "GALAXY_SLOTS=4" is a good setti
 
 1. Click on "Login or Register"
 1. You can register a user name, if more than one person is going to access CloudForest. If not, use
-
+    
     **Public name or Email Address**: admin
 
     **Password**: admin
@@ -169,8 +167,8 @@ Where *cloudforest* is the name used in the \--name argument.
 ### A Brief CloudForest Tour
 
  This is the initial workspace screen:<br>
-
-![]("/assets/guide-images/FirstScreen.png")
+    
+![](FirstScreen.png)
 
 The right panel shows your processing history. Each entry in the history is a file: either imported from your local file space or the results of a computation.
 
@@ -190,7 +188,7 @@ In this example, the options for the **-trees** argument are made available. The
 
 Clicking on **Execute** starts the compute job. In the right history pane, you can see the four outputs that will be produced from the job run. Once the entries change from gray to green, the job is complete and the outputs are ready for further processing or inspection.
 
-For instance, you can run NLDR on history entry 5 **Distance Matrix from data 1** to generate a non-linear dimension reduction of the generated trees.
+For instance, you can run NLDR on history entry 5 **Distance Matrix from data 1** to generate a non-linear dimension reduction of the generated trees. 
 
 ![](Execute.png)
 
@@ -207,9 +205,9 @@ Reading from left to right:
 - Generate an affinity matrix from the 20D matrix
 - Run community detection based on the generated affinity matrix
 
-Once the workflow starts, barring errors, it will run until the final output is produced. All intermediate datasets will be saved and will be available for inspection or as inputs to other compute jobs.
+Once the workflow starts, barring errors, it will run until the final output is produced. All intermediate datasets will be saved and will be available for inspection or as inputs to other compute jobs. 
 
-There will be ten data sets after the workflow finishes. Each asterix in the tools boxes shown below is a data file.
+There will be ten data sets after the workflow finishes. Each asterix in the tools boxes shown below is a data file. 
 
 ![](Workflow_20D.png)
 
