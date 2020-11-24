@@ -170,7 +170,7 @@ Where *cloudforest* is the name used in the \--name argument.
 
  This is the initial workspace screen:<br>
 
-![]("/assets/guide-images/FirstScreen.png")
+![](/assets/guide-images/FirstScreen.png)
 
 The right panel shows your processing history. Each entry in the history is a file: either imported from your local file space or the results of a computation.
 
