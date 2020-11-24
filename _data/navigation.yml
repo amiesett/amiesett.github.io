@@ -3,5 +3,5 @@ main:
     url: /tutorials/
   - title: "Developer Guide"
     url: /dev_guide/
-  - title: "User Guide"
-    url: /user_guide/
+  - title: "Usage Notes"
+    url: /usage_notes/
