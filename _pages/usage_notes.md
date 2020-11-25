@@ -2,7 +2,7 @@
 permalink: /usage_notes/
 title: "Usage Notes"
 sidebar:
-  title: "On this page"
+  nav: "usage_notes-nav"
 ---
 CloudForest is a collection of phylogenomic tools residing in the workflow application [**Galaxy**](https://galaxyproject.org/). Both Galaxy and CloudForest are packaged within a [**Docker**](https://docker.com) container.
 
