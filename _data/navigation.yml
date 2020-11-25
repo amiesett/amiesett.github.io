@@ -16,14 +16,14 @@ dev_guide-nav:
       - title: "Github Repositories"
         url: /dev_guide/#github-repositories
   - title: Docker and Docker Hub
-  - url: /dev_guide/#docker-and-docker-hub
+    url: /dev_guide/#docker-and-docker-hub
     children:
       - title: "Docker Container"
         url: /dev_guide/#cloudforest-as-a-docker-container
       - title: "Permanence"
         url: /dev_guide/#docker-and-data-permanence
       - title: "Data"
-      - url: /dev_guide/#on-the-nature-of-data
+        url: /dev_guide/#on-the-nature-of-data
   - title: Beta Testing
     url: /dev_guide/#beta-testing
   - title: Visualization Code
