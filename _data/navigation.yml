@@ -15,7 +15,7 @@ dev_guide-nav:
         url: /dev_guide/#general-development-flow
       - title: "Github Repositories"
         url: /dev_guide/#github-repositories
-  - title: "Docker and Docker Hub"
+  - title: Docker and Docker Hub
   - url: /dev_guide/#docker-and-docker-hub
     children:
       - title: "Docker Container"
@@ -24,7 +24,7 @@ dev_guide-nav:
         url: /dev_guide/#docker-and-data-permanence
       - title: "Data"
       - url: /dev_guide/#on-the-nature-of-data
-  - title: "Beta Testing"
+  - title: Beta Testing
     url: /dev_guide/#beta-testing
-  - title: "Visualization Code"
+  - title: Visualization Code
     url: /dev_guide/#js-visualization-code
