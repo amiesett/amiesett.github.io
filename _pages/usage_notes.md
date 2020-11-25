@@ -1,8 +1,6 @@
 ---
 permalink: /usage_notes/
 title: "Usage Notes"
-layout: single
-class: wide
 sidebar:
   title: "On this page"
 ---
