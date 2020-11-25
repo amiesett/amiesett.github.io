@@ -7,6 +7,7 @@ main:
     url: /usage_notes/
 dev_guide-nav:
   - title: Overview
+    url: /dev_guide/#cloudforest-is-comprised-of-three-separate-code-units
     children:
       - title: Code Units
         url: /dev_guide/#cloudforest-is-comprised-of-three-separate-code-units
@@ -21,10 +22,6 @@ dev_guide-nav:
         url: /dev_guide/#cloudforest-as-a-docker-container
       - title: "Permanence"
         url: /dev_guide/#docker-and-data-permanence
-      - title: "Volumes"
-        url: /dev_guide/#volumes
-      - title: "Bind Mounts"
-      - url: /dev_guide/#bind-mounts
       - title: "Data"
       - url: /dev_guide/#on-the-nature-of-data
   - title: "Beta Testing"

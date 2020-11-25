@@ -87,7 +87,7 @@ Docker [volumes](https://docs.docker.com/storage/volumes/) are similar to contai
 
 >Volumes are portable between containers. Using volumes with CloudForest creates the ability of a user sharing an entire workflow, including results, with another user. The second user gets an exact replica of data and program state. Data sharing via volumes is much simpler and cleaner than passing around naked data files. This use case is something to keep in mind as we go forward on the project.
 
-#### Bind Mounts
+### Bind Mounts
 
 Docker [bind mounts](https://docs.docker.com/storage/bind-mounts/) are the original method for persisting data out of a running container. This is the method we will use in our user instructions.
 
