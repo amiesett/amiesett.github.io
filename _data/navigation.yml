@@ -18,16 +18,16 @@ dev_guide-nav:
   - url: /dev_guide/#docker-and-docker-hub
     children:
       - title: "Docker Container"
-        url: /dev_guide/#cloudforest-as-a-docker-container/
+        url: /dev_guide/#cloudforest-as-a-docker-container
       - title: "Permanence"
-        url: /dev_guide/#docker-and-data-permanence/
+        url: /dev_guide/#docker-and-data-permanence
       - title: "Volumes"
-        url: /dev_guide/#volumes/
+        url: /dev_guide/#volumes
       - title: "Bind Mounts"
-      - url: /dev_guide/#bind-mounts/
+      - url: /dev_guide/#bind-mounts
       - title: "Data"
-      - url: /dev_guide/#on-the-nature-of-data/
+      - url: /dev_guide/#on-the-nature-of-data
   - title: "Beta Testing"
-    url: /dev_guide/#beta-testing/
+    url: /dev_guide/#beta-testing
   - title: "Visualization Code"
-    url: /dev_guide/#js-visualization-code/
+    url: /dev_guide/#js-visualization-code
